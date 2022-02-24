@@ -1,0 +1,5 @@
+.place__website {
+    display: grid;
+    row-gap: 12px;
+    margin: 0 16px;
+}

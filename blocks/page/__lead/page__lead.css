@@ -1,0 +1,9 @@
+.page__lead {
+    margin-bottom: 57px;
+}
+
+@media screen and (min-width: 767px){
+    .page__lead {
+        margin-bottom: 130px;
+    }
+}

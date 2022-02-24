@@ -1,0 +1,13 @@
+.header__lang-link {
+    color: inherit;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.header__lang-link:nth-child(2){
+    margin-left: auto; 
+    margin-right: 18px;
+    text-decoration: underline;
+}

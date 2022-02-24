@@ -1,0 +1,19 @@
+.navigation__item {
+    margin-bottom: 32px;
+}
+
+.navigation__item:last-child {
+    margin-bottom: 48px;
+}
+
+@media screen and (min-width: 767px){
+    .navigation__item {
+        margin-right: 4%;
+        margin-bottom: 0;
+    }
+
+    .navigation__item:last-child {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+}

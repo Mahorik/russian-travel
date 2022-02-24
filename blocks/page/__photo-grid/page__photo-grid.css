@@ -1,0 +1,9 @@
+.page__photo-grid {
+    margin-bottom: 64px;
+}
+
+@media screen and (min-width: 767px){
+    .page__photo-grid {
+        margin-bottom: 11.45%;
+    }
+}

@@ -1,0 +1,29 @@
+.photo-grid {
+    display: grid;
+    justify-items: center;
+    row-gap: 12px;
+}
+
+@media screen and (min-width: 460px){
+
+    .photo-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 16px 16px;
+    }
+}
+
+@media screen and (min-width: 880px){
+    .photo-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 14px;
+        margin-bottom: 8.98%;
+    }
+}
+
+@media screen and (min-width: 1279px){
+    .photo-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+        margin-bottom: 7.2%;
+    }
+}

@@ -1,0 +1,16 @@
+.intro {
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 1023px){
+    .intro {
+        padding-right: 23.24%;
+    }
+}
+
+@media screen and (min-width: 1279px){
+    .intro {
+        max-width: 76.87%;
+        padding-right: 22.96%;
+    }
+}
