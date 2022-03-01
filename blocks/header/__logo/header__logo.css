@@ -1,10 +1,14 @@
 .header__logo {
-    display: block;
     width: 142px;
+    transition: 0.5s;
 }
 
 @media screen and (min-width: 767px){
     .header__logo {
         width: 176px;
     }
+}
+
+.header__logo:hover {
+    opacity: 0.8;
 }

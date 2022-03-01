@@ -4,10 +4,11 @@
     text-decoration: underline;
     color: inherit;
     margin-bottom: 25px;
+    transition: 0.5s;
 }
 
 .place__link:hover {
-    opacity: 0.8;
+    opacity: 0.8; 
 }
 
 @media screen and (min-width: 1023px){

@@ -3,3 +3,9 @@
     row-gap: 12px;
     margin: 0 16px;
 }
+
+@media screen and (min-width: 767px){
+    .place__website  {
+        margin: 0;
+    }
+}
