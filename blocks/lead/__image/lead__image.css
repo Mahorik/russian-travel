@@ -2,12 +2,12 @@
     width: 100%;
     max-width: 100%;
     vertical-align: middle;
-    margin-bottom: 3.125%;
+    margin-bottom: 8px;
     object-fit: cover;
 }
 
 @media screen and (min-width: 767px){
     .lead__image {
-        margin-bottom: 1%;
+        margin-bottom: 8px;
     }
 }

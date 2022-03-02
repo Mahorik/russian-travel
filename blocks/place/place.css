@@ -6,9 +6,9 @@
     .place {
         display: grid;
         grid-template-columns: 47.27% 1fr;
-        align-items: center;
+        align-items: end;
         column-gap: 28px;
-        margin: 0 24px 10.1%;
+        margin: 0 24px 73px;
     }
 
     .place:last-child {
